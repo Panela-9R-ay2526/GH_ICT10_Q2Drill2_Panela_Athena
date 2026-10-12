@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PYTHON / PYSCRIPT -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Drill 2</title>
+
+</head>
+
+<body>
+
+    <header class="header">
+
+            <h1>Communication Arts Club Checker</h1>
+
+            <p>
+                Candidate Verification System
+            </p>
+    </header>
+
+    <form action="">
+        <input type="text" id="fname" placeholder="Enter your first name"><br>
+        <input type="text" id="lname" placeholder="Enter your last name"><br>
+        <input type="button" py-click="check_name" value="Enter">
+    </form>
+    <div id="div1"></div>
+
+    <py-script src="main.py"></py-script>
+
+</body>
+</html>
